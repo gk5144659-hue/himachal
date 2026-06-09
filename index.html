@@ -42,13 +42,7 @@
         <a href="#reviews">Reviews</a>
         <a href="#contact">Contact</a>
       </div>
-      <a
-        href="javascript:void(0)"
-        class="theme-toggle"
-        onclick="toggleTheme()"
-        title="Toggle Dark Mode"
-        >🌙</a
-      >
+
     </nav>
 
     <!-- Image Slider -->
@@ -383,18 +377,6 @@
 
     <!-- JavaScript -->
     <script>
-      // Dark Mode Toggle
-      function toggleTheme() {
-        document.body.classList.toggle("dark-mode");
-        const btn = document.querySelector(".theme-toggle");
-        btn.textContent = document.body.classList.contains("dark-mode")
-          ? "☀️"
-          : "🌙";
-        btn.title = document.body.classList.contains("dark-mode")
-          ? "Toggle Light Mode"
-          : "Toggle Dark Mode";
-      }
-
       // Mobile Menu Toggle
       function toggleMenu() {
         document.getElementById("navLinks").classList.toggle("active");
