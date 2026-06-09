@@ -254,6 +254,11 @@
       cursor: pointer;
     }
 
+    .nav-links {
+      display: flex;
+      gap: 0;
+    }
+
     /* ===== SECTIONS ===== */
     section {
       padding: 60px 20px;
